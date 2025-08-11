@@ -76,8 +76,8 @@ Cancer type:
 # Run GRAFT using STRING network for pan-cancer prediction
 python run_model.py STRING pan-cancer
 
-# Run GRAFT using CPDB network for KIRC cancer type
-python run_model.py CPDB KIRC
+# Run GRAFT using CPDB network for BRCA cancer type
+python run_model.py CPDB BRCA
 ```
 
 The script will:
