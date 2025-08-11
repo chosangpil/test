@@ -54,6 +54,7 @@ GRAFT effectively integrates heterogeneous biological data and explicitly incorp
 * networkx 2.6.3
 * pyyaml 6.0
 * numpy 1.21.5
+* pandas 1.3.5
 
 
 ## 🚀 Implementation
