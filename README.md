@@ -1,5 +1,4 @@
-# GRAFT
-## GRAFT: A Graph-aware Fusion Transformer for Cancer Driver Gene Prediction
+# GRAFT: A Graph-aware Fusion Transformer for Cancer Driver Gene Prediction
 
 GRAFT (Graph-Aware Fusion Transformer) is a deep learning framework for cancer driver gene prediction that integrates multi-omics data and multiple biological networks.
 
@@ -40,19 +39,34 @@ Graph-aware Transformer: Combines all features and incorporates an edge-attentio
 ### 📌 Summary
 GRAFT effectively integrates heterogeneous biological data and explicitly incorporates graph topology into the Transformer attention mechanism, achieving state-of-the-art performance in cancer driver gene prediction across multiple cancer types. Functional enrichment analysis of novel predictions further demonstrates its biological validity.
 
+----
+
+## Requirements
+* Python 3.8
+* torch 1.9.1+cu111
+* torch-geometric 2.0.4
+* torch-scatter 2.0.8
+* torch-sparse 0.6.11
+* torch-cluster 1.5.9
+* torch-spline-conv 1.2.1
+* scikit-learn 1.0.2
+* scipy 1.7.3
+* networkx 2.6.3
+* pyyaml 6.0
+* numpy 1.21.5
+
 
 ## 🚀 Implementation
-
 
 To run GRAFT, specify:
 
 
-PPI network source:
+* PPI network source:
 - STRING (STRING v11)
 - CPDB (ConsensusPathDB)
 
 
-Cancer type:
+* Cancer type:
 - pan-cancer
 - or a specific cancer type code (e.g., KIRC, BRCA, LUAD)
 
